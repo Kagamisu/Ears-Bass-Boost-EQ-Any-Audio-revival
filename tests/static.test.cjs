@@ -11,9 +11,10 @@ test('valid MV3 manifest, minimal permissions and self-contained runtime',()=>{
  assert.ok(!fs.existsSync(path.join(root,'_metadata')));
  for(const f of [manifest.background.service_worker,manifest.action.default_popup,...Object.values(manifest.icons)])assert.ok(fs.existsSync(path.join(root,f)));
 });
-test('all JavaScript parses, no remote code, analytics, network senders or sync storage',()=>{
+test('JavaScript parses; own code stays local; vendored library matches upstream hash',()=>{
  for(const f of fs.readdirSync(root).filter(f=>f.endsWith('.js'))){
   const source=fs.readFileSync(path.join(root,f),'utf8');new vm.Script(source,{filename:f});
+  if(f==='snap.svg-min.js'){assert.equal(require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(root,f))).digest('hex'),'ce63e4b1ae68e2d143d460ef071d43e90a8a0a81b20d51cc3406cbc1a3ad2549');continue;}
   assert.doesNotMatch(source,/_gaq|google-analytics|UA-64913318|chrome\.storage\.sync|\beval\s*\(|new\s+Function\s*\(|\bfetch\s*\(|XMLHttpRequest|sendBeacon|WebSocket|RTCPeerConnection/);
  }
  const html=fs.readFileSync(path.join(root,'popup.html'),'utf8');

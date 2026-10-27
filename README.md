@@ -4,7 +4,7 @@
 
 Сохранился архив старой версии из него и вырос этот проект. Здесь Ears работает на Manifest V3, а привычный интерфейс остался на месте. Только цвета чуть поменялись.
 
-Сейчас версия **1.3.14**. Проверялась в Яндекс Браузере и Chrome на Windows 10.
+Сборка для Opera — **1.3.15**. Проверялась в Яндекс Браузере и Chrome на Windows 10.
 
 ![Ears Revival](docs/test-evidence/github-yandex-controls.png)
 
@@ -76,3 +76,6 @@ ZIP собирается командой `python tools/build.py` — нужен
 </details>
 
 Оригинальную Ears сделал **Kevin King**. Это неофициальное продолжение, не его новый релиз. Происхождение кода и условия для разных частей проекта собраны в [LICENSE.md](LICENSE.md).
+
+
+Для пакета Opera взята неизменённая Snap.svg 0.5.1 и удалён неиспользуемый SVG. Сборка: `python tools/build-opera.py --out ../opera-build`. [Результаты проверки](publication/OPERA_TEST_REPORT.md).

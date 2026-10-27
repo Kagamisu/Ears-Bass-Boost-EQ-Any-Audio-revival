@@ -4,8 +4,12 @@ archive. Retained in this unofficial restoration; rights reserved by
 their respective owners. This is an unofficial adaptation, not an assertion
 of authorization or endorsement by the original author.
 
-Snap.svg 0.4.1, Copyright (c) 2013–2015 Adobe Systems Incorporated.
-Bundled Eve 0.4.2 and mina. Apache License 2.0; full license and upstream
-NOTICE in LICENSES/. Modified 2026-10-27 to remove unused AJAX transport.
+Snap.svg 0.5.1, Copyright (c) 2013–2017 Adobe Systems Incorporated.
+Bundled Eve 0.5.0 and mina. Apache License 2.0; full license and upstream
+NOTICE in LICENSES/. Unmodified upstream distribution, tag v0.5.1.
+Source: https://raw.githubusercontent.com/adobe-webplatform/Snap.svg/v0.5.1/dist/snap.svg-min.js
+SHA-256: ce63e4b1ae68e2d143d460ef071d43e90a8a0a81b20d51cc3406cbc1a3ad2549
+Its unused AJAX helper is blocked from external access by connect-src none.
+The extension itself makes no automatic network requests.
 
 See the complete project's LICENSE.md and docs/LICENSE_AUDIT.md.

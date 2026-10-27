@@ -1,6 +1,6 @@
 # Что происходит с данными
 
-Обновлено 27 октября 2026. Относится к Ears Revival 1.3.14.
+Обновлено 27 октября 2026. Относится к Ears Revival 1.3.15.
 
 Аудио из подключённой вкладки обрабатывается локально, внутри браузера. Расширение не отправляет его на сервер, не записывает в файл и не использует аналитику или рекламу. Автоматических обращений к внешнему серверу у расширения нет.
 
@@ -14,4 +14,4 @@
 
 В Guide есть внешние ссылки. Они открываются по клику, и дальше действуют правила соответствующего сайта. Сам браузер и страницы с музыкой тоже могут обращаться к своим серверам — расширение этим не управляет.
 
-По вопросам данных и работы расширения: [abusovislam8@gmail.com](mailto:abusovislam8@gmail.com), Telegram [@kagamisu](https://t.me/kagamisu) или [GitHub Issues](https://github.com/Kagamisu/ears-revival/issues). В Issues
+По вопросам данных и работы расширения: [abusovislam8@gmail.com](mailto:abusovislam8@gmail.com), Telegram [@kagamisu](https://t.me/kagamisu) или [GitHub Issues](https://github.com/Kagamisu/ears-revival/issues).
