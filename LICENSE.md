@@ -7,5 +7,3 @@
 MIT из [extension/LICENSE-REVIVAL.txt](extension/LICENSE-REVIVAL.txt) относится только к новым компонентам: service-worker.js, offscreen.js, offscreen.html, audio-engine.js, settings.js, popup-bridge.js, тестам, инструментам сборки и новой документации/конфигурации. Она не распространяется на адаптированный popup.js, исходные popup.html/popup.css, старые PNG/SVG и Snap.svg.
 
 У Snap.svg и включённых в него Eve/mina — Apache-2.0. Полный текст и upstream NOTICE лежат в [extension/LICENSES](extension/LICENSES). В начале snap.svg-min.js отмечено изменение: из библиотеки убран неиспользуемый сетевой транспорт.
-
-Название и графика Ears не становятся собственностью сопровождающего Revival из-за публикации проекта. Одобрение оригинального автора не заявляется. Подготовка пакета для Chrome Web Store остаётся отдельным шагом с проверкой прав.
