@@ -14,4 +14,4 @@
 
 В Guide есть внешние ссылки. Они открываются по клику, и дальше действуют правила соответствующего сайта. Сам браузер и страницы с музыкой тоже могут обращаться к своим серверам — расширение этим не управляет.
 
-По вопросам данных и работы расширения: [abusovislam8@gmail.com](mailto:abusovislam8@gmail.com), Telegram [@kagamisu](https://t.me/kagamisu) или [GitHub Issues](https://github.com/Kagamisu/ears-revival/issues). В Issues всё видно публично, поэтому пароли, токены, личную историю и приватные записи туда лучше не выкладывать. Само расширение отчёты не отправляет.
+По вопросам данных и работы расширения: [abusovislam8@gmail.com](mailto:abusovislam8@gmail.com), Telegram [@kagamisu](https://t.me/kagamisu) или [GitHub Issues](https://github.com/Kagamisu/ears-revival/issues). В Issues
