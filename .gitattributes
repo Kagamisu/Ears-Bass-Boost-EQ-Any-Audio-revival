@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# Preserve the installed extension and its release hashes byte-for-byte.
+extension/** -text
+*.png binary

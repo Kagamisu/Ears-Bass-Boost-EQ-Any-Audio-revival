@@ -1,0 +1,107 @@
+{
+  "brand": "chrome",
+  "date": "2026-10-27T16:49:13.938Z",
+  "checks": [
+    {
+      "name": "MV3 loads",
+      "details": "156.0.8078.48"
+    },
+    {
+      "name": "actual toolbar popup SVG"
+    },
+    {
+      "name": "real HTML5 tabCapture in offscreen",
+      "details": {
+        "streams": [
+          {
+            "id": 1208572578,
+            "title": "Ears HTML5 audio /one"
+          }
+        ],
+        "sampleRate": 48000,
+        "contextState": "running"
+      }
+    },
+    {
+      "name": "Bass Boost changes real captured spectrum",
+      "details": {
+        "bassDeltaDb": 5.089073181152344,
+        "oneKHzDeltaDb": 0.0701904296875
+      }
+    },
+    {
+      "name": "spectrum animates without accumulating gradients",
+      "details": {
+        "gradientCount": 12
+      }
+    },
+    {
+      "name": "numerical response matches real original background filters",
+      "details": {
+        "configurations": 3,
+        "frequencies": 256,
+        "maximumDeviationDb": 0
+      }
+    },
+    {
+      "name": "original dot dragging modifies native filters"
+    },
+    {
+      "name": "Shift drag changes Q"
+    },
+    {
+      "name": "double click resets one filter"
+    },
+    {
+      "name": "original gain slider controls output amplitude"
+    },
+    {
+      "name": "preset save and original-format export"
+    },
+    {
+      "name": "preset delete and import"
+    },
+    {
+      "name": "invalid imports report an error and preserve settings"
+    },
+    {
+      "name": "audio survives closing interface; idle analyser released"
+    },
+    {
+      "name": "two independent captures share original 11-filter EQ"
+    },
+    {
+      "name": "audio and tab state survive forced service worker stop"
+    },
+    {
+      "name": "stopping one tab preserves other tab audio"
+    },
+    {
+      "name": "stop/start without reloading source page"
+    },
+    {
+      "name": "closing captured source tab releases its stream"
+    },
+    {
+      "name": "8 capture restart cycles leave exactly one graph and stream"
+    },
+    {
+      "name": "bounded background soak",
+      "details": {
+        "seconds": 5.001
+      }
+    },
+    {
+      "name": "browser restart restores filters/presets without silently recapturing tabs"
+    },
+    {
+      "name": "no extension JS exceptions or external HTTP requests"
+    }
+  ],
+  "errors": [],
+  "network": [],
+  "extensionVersion": "1.3.14",
+  "version": "156.0.8078.48",
+  "toolbarPopup": true,
+  "passed": true
+}

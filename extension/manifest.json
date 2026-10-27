@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Ears 1.3.12 Revival",
+  "short_name": "Ears Revival",
+  "homepage_url": "https://github.com/Kagamisu/ears-revival",
+  "version": "1.3.14",
+  "version_name": "1.3.12 Revival (1.3.14)",
+  "description": "Unofficial revival of the classic Ears equalizer: local tab audio processing, 11 filters, bass boost and spectrum.",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "activeTab",
+    "tabCapture",
+    "offscreen",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_icon": "ears128.png",
+    "default_popup": "popup.html",
+    "default_title": "Ears 1.3.12 Revival"
+  },
+  "icons": {
+    "16": "ears16.png",
+    "32": "ears32.png",
+    "48": "ears48.png",
+    "64": "ears64.png",
+    "128": "ears128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'"
+  }
+}

@@ -1,0 +1,31 @@
+name: Project checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests-and-local-package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      # These checks use only Node built-ins; Playwright is required separately
+      # for interactive browser regression, not for static/unit tests.
+      - name: Validate manifest, JavaScript and settings
+        run: npm test
+      - name: Verify local ZIP packaging
+        run: python3 tools/build.py --out "$RUNNER_TEMP/ears-build"
+      # No automatic publishing, release uploads, or public artifacts.

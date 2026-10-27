@@ -1,0 +1,16 @@
+✔ original 11 filters, shelving types, defaults and exact Q (1.3632ms)
+✔ Bass Boost matches original, including original 20 kHz edit clamp (0.4144ms)
+✔ finite numbers, bounds and filter indexes are enforced (0.9544ms)
+✔ presets round trip in the original Ears JSON format; gain remains independent (0.5436ms)
+✔ malformed and prototype-polluting imports fail atomically (0.3313ms)
+✔ reset restores original values and resets output gain (0.1184ms)
+✔ valid MV3 manifest, minimal permissions and self-contained runtime (2.0701ms)
+✔ all JavaScript parses, no remote code, analytics, network senders or sync storage (5.0333ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 86.6977

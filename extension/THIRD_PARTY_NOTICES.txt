@@ -1,0 +1,11 @@
+Ears 1.3.12 original extension: author listed as Kevin King.
+Original code, UI and artwork: no redistribution license found in the supplied
+archive. Retained in this unofficial restoration; rights reserved by
+their respective owners. This is an unofficial adaptation, not an assertion
+of authorization or endorsement by the original author.
+
+Snap.svg 0.4.1, Copyright (c) 2013–2015 Adobe Systems Incorporated.
+Bundled Eve 0.4.2 and mina. Apache License 2.0; full license and upstream
+NOTICE in LICENSES/. Modified 2026-10-27 to remove unused AJAX transport.
+
+See the complete project's LICENSE.md and docs/LICENSE_AUDIT.md.

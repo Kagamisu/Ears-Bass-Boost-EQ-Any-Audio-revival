@@ -1,0 +1,107 @@
+[
+  {
+    "path": "audio-engine.js",
+    "bytes": 5728,
+    "sha256": "c93c48bc47d53c91de00eea94ab3f12c23a72503b02ff42e7c50935634cc762a"
+  },
+  {
+    "path": "ears128.png",
+    "bytes": 8468,
+    "sha256": "13793cda7dc98d1eee358278012af59576dd5c5b5143cf2dd7031d145b2bae87"
+  },
+  {
+    "path": "ears16.png",
+    "bytes": 824,
+    "sha256": "f57db7af1d1783d45bbe518e508273178023e324e66d3894c7ad72a6fef31c1a"
+  },
+  {
+    "path": "ears32.png",
+    "bytes": 1922,
+    "sha256": "4a5e47ffecdf7c9e332ab5fd2768ce055b903d83e53ecbe849717921d3111758"
+  },
+  {
+    "path": "ears48.png",
+    "bytes": 3222,
+    "sha256": "78514a8028c123ba0b4671262ec9236c7b74c907cf9b56db7299bf7ed707555a"
+  },
+  {
+    "path": "ears64.png",
+    "bytes": 4189,
+    "sha256": "94648bd640d530e436a21fc86723fc4cec2139b22964cd14ad073cec75b85492"
+  },
+  {
+    "path": "earss.svg",
+    "bytes": 6301,
+    "sha256": "bc77917bf4fbd471cd80c78cd14753c8feba4aef8f16ae22c377ff7a3a82ef45"
+  },
+  {
+    "path": "LICENSE-REVIVAL.txt",
+    "bytes": 1279,
+    "sha256": "712d3c6345e44b3ad6d3a0ca9bd950301db4edbd1a01e657b4a8cc7b542c4a86"
+  },
+  {
+    "path": "LICENSES/Apache-2.0.txt",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "LICENSES/Snap.svg-NOTICE.txt",
+    "bytes": 8460,
+    "sha256": "e3dea5b567505e79fd9808c520713de9aa089e747c99bc6140426e42c71a08a6"
+  },
+  {
+    "path": "manifest.json",
+    "bytes": 1088,
+    "sha256": "bcab362e96986c68784df698796f1ecf841276c39a644b5d237022f63de21512"
+  },
+  {
+    "path": "offscreen.html",
+    "bytes": 264,
+    "sha256": "1cd9d426aa6a80587549b6ff886a749ffa594f80747eb8886b0c992f9d0e75a1"
+  },
+  {
+    "path": "offscreen.js",
+    "bytes": 1371,
+    "sha256": "0b15b89509f502c66eca8b78c5e8bc7b21f34ae6bc4ba5a7628281a686677f0a"
+  },
+  {
+    "path": "popup-bridge.js",
+    "bytes": 3424,
+    "sha256": "3ba95c13d4ffa840bf39c79ecbf4e335e4fcccd1e65ab62ec9a3607e7bd7d7c7"
+  },
+  {
+    "path": "popup.css",
+    "bytes": 4904,
+    "sha256": "c7790f24d5466ababf2ad48f074fea2c55f8b597f8dd444720f3d230e875f5ae"
+  },
+  {
+    "path": "popup.html",
+    "bytes": 4314,
+    "sha256": "5b59a8d75d23ec78d49cbd776d451f660350bf2816cb0cde14429c324a5519ee"
+  },
+  {
+    "path": "popup.js",
+    "bytes": 15429,
+    "sha256": "a6d59d18984e8d81c19363c7f3ac5aa5cdac94d28e68f6229dd414e97ca134d2"
+  },
+  {
+    "path": "service-worker.js",
+    "bytes": 6742,
+    "sha256": "eb604183d4465db7d557e07165dad2374001f88ccb34ee040cec77338fda256b"
+  },
+  {
+    "path": "settings.js",
+    "bytes": 5161,
+    "sha256": "c2a3e4783eaf4f208571346ca58ab692027d59871b0acb3537a2a836dc7c47ee"
+  },
+  {
+    "path": "snap.svg-min.js",
+    "bytes": 76219,
+    "sha256": "b9b8cfd041c6336e64c8ff84f537a4d4ade23fed0e0b96fa26836943e6c493b0"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.txt",
+    "bytes": 637,
+    "sha256": "602592f5cc0de2e49de136537489839bed5bae40cdccd2bd3ad208299f846a85"
+  }
+]

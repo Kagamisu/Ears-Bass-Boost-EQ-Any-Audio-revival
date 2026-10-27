@@ -1,0 +1,136 @@
+{
+  "archive": "1.3.12_0.rar",
+  "sha256": "b5e537b9d3537aa2ad401cd6c6f4316048aab717eb7c11bcbbff24bfdabb46cb",
+  "files": [
+    {
+      "path": "_metadata/verified_contents.json",
+      "bytes": 3269,
+      "sha256": "23a11cdbc28981a8359e81a990dd504522b99354baaaecc47b2ed456720c2646"
+    },
+    {
+      "path": "_metadata/yandex/original/ears128.png",
+      "bytes": 8380,
+      "sha256": "3384e33371b0a2009c3dfe9b3c754a569a1a7d81c20811cdb9266ba1205f18a8"
+    },
+    {
+      "path": "_metadata/yandex/original/ears16.png",
+      "bytes": 861,
+      "sha256": "3cf87c6ceeac13fe7c79cb7778345d4095d502a831bc687ca4cb3fcc10f64d15"
+    },
+    {
+      "path": "_metadata/yandex/original/ears32.png",
+      "bytes": 1919,
+      "sha256": "b03bb58e6a302926dd65edac2fbbc60822f19beccb0edb0d3abc69e46e5c00b8"
+    },
+    {
+      "path": "_metadata/yandex/original/ears48.png",
+      "bytes": 3184,
+      "sha256": "9df0ea40d40524f59e6fe264bee64547e77a851886a674d5cd52a3becac00321"
+    },
+    {
+      "path": "_metadata/yandex/original/ears64.png",
+      "bytes": 4172,
+      "sha256": "228e6af2b5cefbd4811950dc976b5e27e473799f92548d64320a4d932d3fe9f3"
+    },
+    {
+      "path": "_metadata/yandex/original/manifest.json",
+      "bytes": 1190,
+      "sha256": "6ead6da191db9f728c84279a247be9970fbaf8ba1877e5d8737d482a524283cf"
+    },
+    {
+      "path": "bg.js",
+      "bytes": 9417,
+      "sha256": "f6f733e3ab14b6c18686e93a3a3605a13b86ff271667d5b01a88bcc3d5191667"
+    },
+    {
+      "path": "ears128.png",
+      "bytes": 8468,
+      "sha256": "13793cda7dc98d1eee358278012af59576dd5c5b5143cf2dd7031d145b2bae87"
+    },
+    {
+      "path": "ears16.png",
+      "bytes": 824,
+      "sha256": "f57db7af1d1783d45bbe518e508273178023e324e66d3894c7ad72a6fef31c1a"
+    },
+    {
+      "path": "ears32.png",
+      "bytes": 1922,
+      "sha256": "4a5e47ffecdf7c9e332ab5fd2768ce055b903d83e53ecbe849717921d3111758"
+    },
+    {
+      "path": "ears48.png",
+      "bytes": 3222,
+      "sha256": "78514a8028c123ba0b4671262ec9236c7b74c907cf9b56db7299bf7ed707555a"
+    },
+    {
+      "path": "ears64.png",
+      "bytes": 4189,
+      "sha256": "94648bd640d530e436a21fc86723fc4cec2139b22964cd14ad073cec75b85492"
+    },
+    {
+      "path": "earsoauth120.png",
+      "bytes": 7769,
+      "sha256": "0cacb27a3898c176b294dc3a1e533c7a2a1e91bf9110ec8c8ad4416585d547b2"
+    },
+    {
+      "path": "earss.svg",
+      "bytes": 6301,
+      "sha256": "bc77917bf4fbd471cd80c78cd14753c8feba4aef8f16ae22c377ff7a3a82ef45"
+    },
+    {
+      "path": "earstile.svg",
+      "bytes": 9279,
+      "sha256": "70c6f36b18c950520ea770e2e0b02db39c994bd642cf684431c7e7e91501baad"
+    },
+    {
+      "path": "earstile1400.png",
+      "bytes": 78667,
+      "sha256": "17fd7d5276b22958f71569f3923aa8040bcc0516fbf57b880824fbfe5c524424"
+    },
+    {
+      "path": "earstile440.png",
+      "bytes": 21561,
+      "sha256": "e7e261855b866aca4d5e6cc33aae63df742b7c414c0ec5cc9bb79ce8dc2c0c3b"
+    },
+    {
+      "path": "earstile440.svg",
+      "bytes": 7620,
+      "sha256": "c5f03ef59878c508bf0d4ab4930d6e7179d9e877ce753aae1c672648d6e3de04"
+    },
+    {
+      "path": "earstile920.png",
+      "bytes": 56272,
+      "sha256": "1b833abfe2c84bd383a316b44ce2da1d66416756b95589e9a379a681bad468df"
+    },
+    {
+      "path": "earstile920.svg",
+      "bytes": 8563,
+      "sha256": "9c4d7bd087134a795b428d4c2474b6496f107e03447ff96e85531b96a32462af"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 1251,
+      "sha256": "de93e4a9abbae15476ef462cb698fc00cccd8c5cc4f728774cab70a1da03a7e0"
+    },
+    {
+      "path": "popup.css",
+      "bytes": 4878,
+      "sha256": "5b5f2bddc0294dc9f0e82429edd1749b3969c65eda0ce71650e6cec1e9709aae"
+    },
+    {
+      "path": "popup.html",
+      "bytes": 5116,
+      "sha256": "590a05c9486b43969c2699b60daa2357de7736dfa4c9a1c58c1fb8a3321fc85f"
+    },
+    {
+      "path": "popup.js",
+      "bytes": 11605,
+      "sha256": "fd5982b952a586b89d9d13faf80ea6a07aeb0aae317f7ab4cac63fb87f5b95b1"
+    },
+    {
+      "path": "snap.svg-min.js",
+      "bytes": 76673,
+      "sha256": "86e81b5129457e636670017ed841b4ef3f85e3ee159fac9aea79da91335a4c5f"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+node_modules/
+__pycache__/
+.DS_Store
+*.crx
+*.pem
+dist/
+publication/permissions-private/
+*.zip
+*.log
+.env
+.env.*
+.npmrc
+work/
