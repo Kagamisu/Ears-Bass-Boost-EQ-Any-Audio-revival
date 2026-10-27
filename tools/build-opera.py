@@ -18,7 +18,12 @@ with zipfile.ZipFile(out, 'w') as z:
         info = zipfile.ZipInfo(p.relative_to(ext).as_posix(), (2026, 10, 27, 0, 0, 0))
         info.create_system = 3
         info.external_attr = 0o100644 << 16
-        z.writestr(info, p.read_bytes(), compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
+        data = p.read_bytes()
+        # Match the uploaded Windows package, regardless of Git checkout EOLs.
+        # Preserve the vendored Snap.svg bytes exactly as supplied upstream.
+        if info.filename in ('manifest.json', 'THIRD_PARTY_NOTICES.txt'):
+            data = data.replace(b'\r\n', b'\n').replace(b'\n', b'\r\n')
+        z.writestr(info, data, compress_type=zipfile.ZIP_DEFLATED, compresslevel=9)
 with zipfile.ZipFile(out) as z:
     assert z.testzip() is None and 'manifest.json' in z.namelist()
 digest = hashlib.sha256(out.read_bytes()).hexdigest()
