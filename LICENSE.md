@@ -1,11 +1,11 @@
-# License scope
+# Лицензии и авторство
 
-This unofficial restoration contains third-party material with different rights.
+В этом проекте есть код разного происхождения, поэтому одной лицензии на весь репозиторий нет.
 
-The original Ears source/UI and artwork are attributed in the supplied archive to, or associated with, Kevin King. No license granting redistribution of those materials was present in the archive. Their rights remain with their respective owners. This project does not grant a license to those original materials or the Ears name/branding. See docs/LICENSE_AUDIT.md before any distribution.
+Оригинальная Ears связана с **Kevin King** — он указан автором в сохранённом manifest. Код старого интерфейса и графика остались в адаптации. В архиве не было лицензии, разрешающей их распространение; этот репозиторий не выдаёт за правообладателя новое разрешение и не объявляет материалы общественным достоянием. Подробности — в [заметках о происхождении](docs/LICENSE_AUDIT.md).
 
-The MIT text in extension/LICENSE-REVIVAL.txt applies only to newly authored service-worker.js, offscreen.js, offscreen.html, audio-engine.js, settings.js, popup-bridge.js, tests, tools, and new project documentation/configuration. It does not cover the adapted popup.js, original popup.html/popup.css, original PNG/SVG assets, or Snap.svg.
+MIT из [extension/LICENSE-REVIVAL.txt](extension/LICENSE-REVIVAL.txt) относится только к новым компонентам: service-worker.js, offscreen.js, offscreen.html, audio-engine.js, settings.js, popup-bridge.js, тестам, инструментам сборки и новой документации/конфигурации. Она не распространяется на адаптированный popup.js, исходные popup.html/popup.css, старые PNG/SVG и Snap.svg.
 
-Snap.svg and its bundled Eve/mina components are covered by their Apache-2.0 notices. The local network-transport removal is marked in snap.svg-min.js. See extension/LICENSES/Apache-2.0.txt and extension/LICENSES/Snap.svg-NOTICE.txt.
+У Snap.svg и включённых в него Eve/mina — Apache-2.0. Полный текст и upstream NOTICE лежат в [extension/LICENSES](extension/LICENSES). В начале snap.svg-min.js отмечено изменение: из библиотеки убран неиспользуемый сетевой транспорт.
 
-There is no single license granting redistribution of the entire current personal build. Publishing this repository does not itself grant rights to third-party materials. The separate Chrome Web Store packaging gate remains pending rights review.
+Название и графика Ears не становятся собственностью сопровождающего Revival из-за публикации проекта. Одобрение оригинального автора не заявляется. Подготовка пакета для Chrome Web Store остаётся отдельным шагом с проверкой прав.

@@ -1,5 +1,13 @@
-# Проверка упаковки 1.3.14
+# Сборка 1.3.14
 
-Установочная директория — extension. Команда python tools/build.py создаёт Ears-Revival-1.3.14-local.zip и Ears-Revival-1.3.14-source.zip рядом с проектом. Проверяются CRC архивов; manifest лежит в корне установочного ZIP. В упаковку не входят .git, node_modules, work и permissions-private. Контрольные суммы находятся в SHA256SUMS.txt рядом с ZIP.
+Для установки достаточно папки `extension`. Чтобы получить архивы, из корня проекта запусти:
 
-GitHub Actions выполняет проверку упаковки. Актуальные runtime-хеши находятся в runtime-sha256.json. Путь --public остаётся отдельной подготовкой магазинного пакета.
+```sh
+python tools/build.py
+```
+
+Нужен Python 3.10+. Рядом с проектом появятся `Ears-Revival-1.3.14-local.zip`, `Ears-Revival-1.3.14-source.zip` и `SHA256SUMS.txt`.
+
+В установочном ZIP manifest лежит прямо в корне. Скрипт проверяет CRC обоих архивов; .git, node_modules, work и закрытые разрешительные документы туда не попадают. Список runtime-файлов с хешами — в [runtime-sha256.json](runtime-sha256.json).
+
+GitHub Actions тоже пробует собрать ZIP. Параметр `--public` относится к отдельной подготовке магазинного пакета, не к обычной локальной установке.
